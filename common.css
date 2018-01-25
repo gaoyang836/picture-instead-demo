@@ -40,7 +40,7 @@ section,header{
 }
 /*自定义样式*/
 body{
-         background: url(../images/img1.jpg);
+         background: url(../images/bg.jpg);
          font-family: Cambria,Palatino,"Palatino Linotype"，"Palatino LT STD",General,serif;
          font-size: 15px;
          color: #3a2127;
@@ -116,8 +116,8 @@ a{
 /*页面主体*/
 
 .cr-container{
-	width: 500px;
-	height: 313px;
+	width: 600px;
+	height: 400px;
 	margin:0 auto;
 	position:relative;
 	border: 20px solid #fff;
