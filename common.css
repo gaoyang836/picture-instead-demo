@@ -116,43 +116,43 @@ a{
 /*页面主体*/
 
 .cr-container{
-	width: 600px;
-	height: 400px;
+	width:600px;
+	height:400px;
 	margin:0 auto;
 	position:relative;
-	border: 20px solid #fff;
+	border:20px solid #fff;
 }
 
 .cr-container input{
-	display: none;
+	display:none;
 }
 
-.cr-container > label{
-	font-style: italic;
-	width: 125px;
-	height: 30px;
-	cursor: pointer;
-	color: #fff;
-	font-size: 24px;
-	text-align: center;
-	line-height: 32px;
-	margin-top: 240px;
-	float: :left;
+.cr-container label{
+	font-style:italic;
+	width:125px;
+	height:30px;
+	cursor:pointer;
+	color:#fff;
+	font-size:24px;
+	text-align:center;
+	line-height:32px;
+	margin-top:35px;
+	float:left;
 	position: relative;
 	z-index: 1000;
 }
 
-.cr-container > label::before{
-	content: " ";
+.cr-container label:before{
+	content:"";
 	position: absolute;
 	width: 34px;
 	height: 34px;
 	border-radius: 50%;
-	background: :rgba(130,195,217,0.9);
+	background:rgba(130,195,217,0.9);
 	left: 50%;
-	margin-left: -17px: 
+	margin-left: -17px;
 	z-index:-1;
-	box-shadow: 0 0 0 4px  rgba(255,255,255,.3);
+	box-shadow: 0 0 0 4px  rgba(255,255,255,0.3);
 }
 
 .cr-container input:checked + label {
@@ -161,7 +161,7 @@ a{
 
 .cr-container input:checked + label:before {
 	background: #fff;
-             box-shadow: 0 0 0 4px  rgba(104,171,194,.6); 
+        box-shadow: 0 0 0 4px rgba(104,171,194,0.6); 
 }
 
 .cr-container > label::after{
