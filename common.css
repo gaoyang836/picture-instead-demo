@@ -175,7 +175,7 @@ a{
         right:0px;
         bottom:-30px;
         //background:-webkit-gradient(top,rgba(255,255,255,0) 0%,rgba(255,255,255,1)100%);
-        //background:-moz-gradient(top,rgba(255,255,255,0) 0%,rgba(255,255,255,1)100%);
+        background:-moz-linear-gradient(top,rgba(255,255,255,0),rgba(255,255,255,1));
         //background:-o-gradient(top,rgba(255,255,255,0) 0%,rgba(255,255,255,1)100%);
         //background:gradient(linear,left top,rgba(255,255,255,0) 0%,rgba(255,255,255,1)100%);
 }
