@@ -165,17 +165,17 @@ a{
         box-shadow: 0 0 0 4px rgba(104,171,194,0.6); 
 }
 
-.cr-container > label::after{
-	content: " ";
+.cr-container label:after{
+	content:"";
 	width: 1px;
 	height: 313px;
-             position: absolute;
-             right: 0px;
-             bottom: -30px;
-             background:-webkit- -linear-gradient(top,rgba(255,255,255,0) 0%,rgba(255,255,255,1)100%);
-             background:-moz- -linear-gradient(top,rgba(255,255,255,0) 0%,rgba(255,255,255,1)100%);
-             background:  -o--linear-gradient(top,rgba(255,255,255,0) 0%,rgba(255,255,255,1)100%);
-             background: -linear-gradient(top,rgba(255,255,255,0) 0%,rgba(255,255,255,1)100%);
+        position: absolute;
+        right: 0px;
+        bottom: -30px;
+        background:-webkit- -linear-gradient(top,rgba(255,255,255,0) 0%,rgba(255,255,255,1)100%);
+        background:-moz- -linear-gradient(top,rgba(255,255,255,0) 0%,rgba(255,255,255,1)100%);
+        background:-o- -linear-gradient(top,rgba(255,255,255,0) 0%,rgba(255,255,255,1)100%);
+        background:-linear-gradient(top,rgba(255,255,255,0) 0%,rgba(255,255,255,1)100%);
 }
 
 .cr-container > label:last-child:after{
