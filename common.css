@@ -8,7 +8,9 @@ html,body {
            padding: 0;
            height: 100%;
 }
-
+body{
+	background:#3333;
+}
 table {
 border-collapse:collapse;
 border-spacing: 0; 
@@ -41,7 +43,6 @@ section,header{
 }
 /*自定义样式*/
 body{
-         background:#3333;
          font-family: Cambria,Palatino,"Palatino Linotype"，"Palatino LT STD",General,serif;
          font-size: 15px;
          color: #3a2127;
