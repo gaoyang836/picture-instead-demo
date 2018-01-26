@@ -16,8 +16,7 @@
 .cr-container input.cr-selector-img-1:checked ~ .cr-bgimg,
 .cr-beimg div span:nth-child(1)
 {
-	//background:url(../images/img1.jpg);
-	background="../images/img1.jpg";
+	background:url(/images/img1.jpg);
 }
 .cr-container input.cr-selector-img-2:checked ~ .cr-bgimg,
 .cr-beimg div span:nth-child(2)
