@@ -2,7 +2,7 @@
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	left: 0px;
+	left: -150px;
 	top: 0;
 	z-index: 2;
 	text-indent:-9999px;
@@ -35,31 +35,31 @@
 	background-image:url(images/img4.jpg);
 }
 
-.cr-bgimg div : nth -child(1) span{
+.cr-bgimg div:nth-child(1) span{
 	background-position: 0 0;
 }
 
-.cr-bgimg div : nth -child(2) span{
-	background-position: -125px 0;
+.cr-bgimg div:nth-child(2) span{
+	background-position: -150px 0;
 }
 
-.cr-bgimg div : nth -child(3) span{
-	background-position: -250px 0;
+.cr-bgimg div:nth-child(3) span{
+	background-position: -300px 0;
 }
 
-.cr-bgimg div : nth -child(4) span{
-	background-position: --375px 0;
+.cr-bgimg div:nth-child(4) span{
+	background-position: -450px 0;
 }
 
-.cr-container inout:chacked ~ .cr-bgimg span{
-	-webkit-animation: slideout 0.6s ease-in-out;
-	-moz-animation: slideout 0.6s ease-in-out;
-	-ms-animation: slideout 0.6s ease-in-out;
-	-o-animation: slideout 0.6s ease-in-out;
-	animation: slideout 0.6s ease-in-out;
+.cr-container input:checked ~ .cr-bgimg span{
+	-webkit-animation: slideOut 0.6s ease-in-out;
+	-moz-animation: slideOut 0.6s ease-in-out;
+	-ms-animation: slideOut 0.6s ease-in-out;
+	-o-animation: slideOut 0.6s ease-in-out;
+	animation: slideOut 0.6s ease-in-out;
 }
 
-@-weblit-keyframes slideout{
+@keyframes slideOut{
 	0%{
 		left: 0;
 	}
@@ -68,7 +68,7 @@
 	}
 }
 
-@-weblit-keyframes slideout{
+@-weblit-keyframes slideOut{
 	0%{
 		left: 0;
 	}
@@ -77,7 +77,7 @@
 	}
 }
 
-@-moz-keyframes slideout{
+@-moz-keyframes slideOut{
 	0%{
 		left: 0;
 	}
@@ -86,7 +86,7 @@
 	}
 }
 
-@-ms-keyframes slideout{
+@-ms-keyframes slideOut{
 	0%{
 		left: 0;
 	}
@@ -95,7 +95,7 @@
 	}
 }
 
-@-o-keyframes slideout{
+@-o-keyframes slideOut{
 	0%{
 		left: 0;
 	}
@@ -104,10 +104,10 @@
 	}
 }
 
-.cr-container input.cr-selector-img-1 :checked ~ .cr-bgimg div span:nth-child(1),
-.cr-container input.cr-selector-img-2 :checked ~ .cr-bgimg div span:nth-child(2),
-.cr-container input.cr-selector-img-3 :checked ~ .cr-bgimg div span:nth-child(3),
-.cr-container input.cr-selector-img-4 :checked ~ .cr-bgimg div span:nth-child(4)
+.cr-container input.cr-selector-img-1:checked ~ .cr-bgimg div span:nth-child(1),
+.cr-container input.cr-selector-img-2:checked ~ .cr-bgimg div span:nth-child(2),
+.cr-container input.cr-selector-img-3:checked ~ .cr-bgimg div span:nth-child(3),
+.cr-container input.cr-selector-img-4:checked ~ .cr-bgimg div span:nth-child(4)
 {
      z-index:10;
      left: 0; 
@@ -118,7 +118,7 @@
          animation:none;
 }
 
-.cr-titles  h3{
+.cr-titles h3{
 	position: absolute;
 	width: 100%
 	text-align:center;
@@ -126,7 +126,7 @@
 	opacity: 0;
 	text-shadow:1px 1px 1px rgda(0,0,0,0.1);
 	z-index: 10000;
-	top;50%;
+	top：50%;
 	-webkit-transition:opacity 0.8s ease-in-out;
 	-moz-transition:opacity 0.8s ease-in-out;
 	-ms-transition:opacity 0.8s ease-in-out;
@@ -137,7 +137,7 @@
 .cr-titles h3 span:nth-child(1){
 	display: block;
 	font-size: 70px;
-	font-family: "BeasNeue","Arial Narrow",Arial sans-serif;
+	font-family: "BebasNeue","Arial Narrow",Arial sans-serif;
 	letter-spacing: 7px;
 }
 
@@ -146,6 +146,7 @@
 	font-size: 14px;
 	padding:10px; 
 	background: rgba(104,171,194,0.9);
+	font-family: "BebasNeue","Arial Narrow",Arial sans-serif;
 	letter-spacing: 0;
 	font-style: italic;
 }
