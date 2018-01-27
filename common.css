@@ -185,8 +185,10 @@ a{
 }
 
 .cr-beimg{
-	width: 500px;
-	height: 313px;
+	／／width: 500px;
+	／／height: 313px;
+	width: 100%;
+        height: 100%;
 	overflow: hidden;
 	position: absolute;
 	left: 0;
