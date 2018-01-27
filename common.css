@@ -195,7 +195,7 @@ a{
 	background-repeat:no-repeat;
 }
 
-.cr-beimg > div {
+.cr-beimg div {
 	width: 125px;
 	height: 100%;
 	float: left;
