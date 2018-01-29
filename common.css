@@ -195,6 +195,14 @@ a{
 	background-repeat:no-repeat;
 }
 
+.cr-beimg{
+	width:600px;
+	height:400px;
+	margin:0 auto;
+	position:relative;
+	border:20px solid #fff;
+}
+
 .cr-beimg > div {
 	width: 150px;
 	height: 100%;
