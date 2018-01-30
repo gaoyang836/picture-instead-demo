@@ -121,7 +121,7 @@
 .cr-titles h3{
 	position:absolute;
 	width:100%;
-        text-align: center;
+        //text-align: center;
 	color: #fff;
 	opacity:0;
 	text-shadow:1px 1px 1px rgda(0,0,0,0.1);
@@ -144,7 +144,7 @@
 
 .cr-titles h3 span:nth-child(2){
 	display:block;
-	font-size: 14px;
+	font-size: 12px;
 	padding:10px; 
 	background: rgba(104,171,194,0.3);
 	font-family: "BebasNeue","Arial Narrow",Arial sans-serif;
