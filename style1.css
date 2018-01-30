@@ -126,7 +126,7 @@
 	opacity:0;
 	text-shadow:1px 1px 1px rgda(0,0,0,0.1);
 	z-index: 10000;
-	top50%;
+	top:30%;
 	-webkit-transition:opacity 1s ease-in-out;
 	-moz-transition:opacity 1s ease-in-out;
 	-ms-transition:opacity 1s ease-in-out;
@@ -136,7 +136,7 @@
 
 .cr-titles h3 span:nth-child(1){
 	display: block;
-	font-size: 70px;
+	font-size: 30px;
 	font-family: "BebasNeue","Arial Narrow",Arial sans-serif;
 	letter-spacing: 7px;
 }
