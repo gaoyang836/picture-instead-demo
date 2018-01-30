@@ -121,7 +121,8 @@
 .cr-titles h3{
 	position:absolute;
 	width:100%
-	text-align:center;
+	text-align: center;
+	text-align: center;
 	color: #fff;
 	opacity:0;
 	text-shadow:1px 1px 1px rgda(0,0,0,0.1);
