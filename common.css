@@ -184,7 +184,7 @@ a{
 	width: 0;
 }
 
-.cr-beimg{
+.cr-bgimg{
 	width:600px;
 	height:400px;
 	overflow:hidden;
@@ -195,15 +195,7 @@ a{
 	background-repeat:no-repeat;
 }
 
-.cr-beimg{
-	width:600px;
-	height:400px;
-	margin:0 auto;
-	position:relative;
-	border:20px solid #fff;
-}
-
-.cr-beimg > div {
+.cr-bgimg > div {
 	width: 150px;
 	height: 100%;
 	float: left;
